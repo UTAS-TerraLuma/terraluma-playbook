@@ -1,0 +1,35 @@
+# Set default text file handling to avoid line ending issues
+* text=auto
+
+# Explicitly set line endings for common file types
+*.js   text eol=lf
+*.ts   text eol=lf
+*.jsx  text eol=lf
+*.tsx  text eol=lf
+*.css  text eol=lf
+*.scss text eol=lf
+*.html text eol=lf
+*.md   text eol=lf
+*.sh   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+
+# Windows batch files use CRLF
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+
+# Images and binaries should be treated as binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary
+*.zip  binary
+*.exe  binary
+
+# Prevent merge conflicts in lock files
+package-lock.json merge=union
+yarn.lock        merge=union
+
+# Custom settings for macOS/Linux/Windows if needed
