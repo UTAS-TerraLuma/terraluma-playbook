@@ -35,7 +35,7 @@
 3. In the `vscode` terminal window use the `pixi init` command to initialise the folder
 
    ```powershell
-   # intialise with pyproject manifest and github configs
+   # initialise with pyproject manifest and github configs
    pixi init --format pyproject --scm github
 
    # as above, but import the environment from a yaml
