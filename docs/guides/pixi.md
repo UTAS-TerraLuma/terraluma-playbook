@@ -155,7 +155,7 @@ The Python developers introduced `pyproject.toml` [specification](https://packag
 
 The key benefits of a project-centric approach are that project's manifest (metadata), requirements (dependencies), and environment are all located inside the project directory alongside the source code. Additionally, project environments are **self documenting** and **version controlled** in the project manifest (`pyproject.toml`) and lockfile (`pixi.lock`). These files are automatically generated, maintained, and validated by `pixi` which greatly minimises the risk of an environment drifting or becoming corrupted.
 
-> 🔗 [Switching from | Conda/Mamba - Pixi by prefix.dev](https://pixi.sh/latest/switching_from/conda/#key-differences-at-a-glance)
+> 🔗 [Switching from Conda/Mamba - Pixi by prefix.dev](https://pixi.sh/latest/switching_from/conda/#key-differences-at-a-glance)
 
 #### Global environments with `pixi`
 
