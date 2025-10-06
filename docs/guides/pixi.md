@@ -8,8 +8,8 @@
 
 ## Prerequisites
 
-- [ ] TODO: Prerequisites for pixi usage?
-- [ ] Vanilla Git maybe?
+- [ ] TODO: Prerequisites for pixi usage
+  - [ ] MAYBE: git
 
 ## Installation (Win11)
 
