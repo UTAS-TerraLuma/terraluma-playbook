@@ -167,7 +167,7 @@ Although it is possible to create global environments with `pixi`, they are not 
 
 It is common for Python environments to be large in both size (GBs) and number of files (tens to hundreds of thousands of files). We also just learned that `pixi` installs the environment into the project root folder.
 
-It is **strongly recommended** that you **do not** save your projects inside OneDrive (or any desktop sync service) if you are using `pixi`. Not only is it useless to sync an environment (envs aren't transferrable), but your sync service will get jammed up syncing the files and cause endless sync conflicts.
+It is **strongly recommended** that you **do not** save your projects inside OneDrive (or any desktop sync service) if you are using `pixi`. Not only is it useless to sync an environment (envs aren't transferable), but your sync service will get jammed up syncing the files and cause endless sync conflicts.
 
 Best practice is to work from your home directory: `C:\Users\user.name\project\my-project`
 
