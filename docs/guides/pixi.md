@@ -137,9 +137,9 @@ exiftool my_image.tif
 
 > 🔗 [JupyterLab - Pixi by prefix.dev](https://pixi.sh/latest/integration/editor/jupyterlab/)
 
-### Gotchas
+## Gotchas
 
-#### Project-centric workflow
+### Project-centric workflow
 
 > ⏩ TL;DR
 >
@@ -157,13 +157,13 @@ The key benefits of a project-centric approach are that project's manifest (meta
 
 > 🔗 [Switching from Conda/Mamba - Pixi by prefix.dev](https://pixi.sh/latest/switching_from/conda/#key-differences-at-a-glance)
 
-#### Global environments with `pixi`
+### Global environments with `pixi`
 
 Although it is possible to create global environments with `pixi`, they are not functionally equivalent to `conda` environments. It is recommended that `pixi` is used with the project-centric approach.
 
 > 🔗 [Global Tools | Creating a Data Science Sandbox Environment - Pixi by prefix.dev](https://pixi.sh/dev/global_tools/introduction/#creating-a-data-science-sandbox-environment)
 
-#### Project root directory location
+### Project root directory location
 
 It is common for Python environments to be large in both size (GBs) and number of files (tens to hundreds of thousands of files). We also just learned that `pixi` installs the environment into the project root folder.
 
@@ -175,7 +175,7 @@ Trust me on this one… it's not worth it.
 
 ![pixienv-onedrive](assets/pixienv-onedrive.png)
 
-#### UTAS ITS managed devices
+### UTAS ITS managed devices
 
 ITS has blocked all scripts on UTAS Windows devices which is known to cause problems for activating `pixi` environments. It also stops `conda` and `mamba` from initialising in PowerShell.
 
