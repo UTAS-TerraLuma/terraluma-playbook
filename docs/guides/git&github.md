@@ -44,6 +44,8 @@ Install with your OS package manager:
 ```cli
 # Windows (winget)
 winget install --id GitHub.cli
+
+# Windows (chocolatey)
 choco install gh
 
 # macOS (Homebrew)
