@@ -11,6 +11,8 @@ This repo is a central and accessible place for tips and tricks, guides and guid
 ### Guides
 
 - [Pixi Python Projects](docs/guides/pixi.md)
+- [Git 101](docs/guides/git101.md)
+- [Git & GitHub](docs/guides/git&github.md)
 
 ### Templates
 

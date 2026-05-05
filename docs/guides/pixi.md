@@ -8,14 +8,16 @@
 
 ## Prerequisites
 
-- [ ] TODO: Prerequisites for pixi usage
-  - [ ] MAYBE: git
+- `git`
 
 ## Installation (Win11)
 
-1. Open the Windows Terminal app
-2. Run the installation script from the `pixi`:
-   `powershell -ExecutionPolicy ByPass -c "irm -useb https://pixi.sh/install.ps1 | iex"`
+1. Open the Windows Terminal app in Admin mode (elevated)
+   1. Right click Start Menu
+   2. Click `Terminal (Admin)
+   3. Click "OK" when prompted (UTAS machines only)
+2. Install with WinGet
+   `winget install prefix-dev.pixi`
 3. Relaunch Windows Terminal (or open a new tab)
 4. Update `pixi`:
    `pixi self-update`
@@ -47,7 +49,7 @@
 6. Proceed to [Using the environment](#using-the-environment) for steps on adding or removing dependencies.
 
 > ‼️ Always commit the `pyproject.toml` and `pixi.lock` to GitHub
-
+>
 > 🔗 [Basic Usage - Pixi by prefix.dev](https://pixi.sh/latest/python/tutorial/)
 
 ## Using the environment
