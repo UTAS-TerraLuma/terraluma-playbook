@@ -69,6 +69,9 @@ Recommended options when prompted:
 2. `HTTPS`
 3. `Login with a web browser`
 
+> [!NOTE]
+> Although I've never had issues with SSH at UTAS, HTTPS is more reliable in managed environments.
+
 Confirm authentication:
 
 ```cli
