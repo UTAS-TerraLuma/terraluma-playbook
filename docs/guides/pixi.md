@@ -26,9 +26,9 @@
 
 ## Initialising projects
 
-> ⚠️ Gotcha: [Project root directory location](#project-root-directory-location)
+> [!WARNING]
 >
-> **Do not** save your project inside OneDrive
+> **Do not** [save your project inside OneDrive.](#project-root-directory-location)
 
 1. Open your project/repo folder in VS Code
 2. Open a new `vscode` terminal window
@@ -48,13 +48,16 @@
 5. Open up the `pyproject.toml` to have a look
 6. Proceed to [Using the environment](#using-the-environment) for steps on adding or removing dependencies.
 
-> ‼️ Always commit the `pyproject.toml` and `pixi.lock` to GitHub
+> [!IMPORTANT]
+>
+> Always commit the `pyproject.toml` and `pixi.lock` to GitHub
 >
 > 🔗 [Basic Usage - Pixi by prefix.dev](https://pixi.sh/latest/python/tutorial/)
 
 ## Using the environment
 
-> ⚠️ Gotcha: [Project-centric workflow](#project-centric-workflow)
+> [!IMPORTANT]
+> [Project-centric workflow](#project-centric-workflow)
 
 ### Adding/removing project dependencies
 
@@ -68,7 +71,8 @@
 3. Remove packages from the environment using `pixi remove`
    `pixi remove geopandas`
 
-> ‼️ conda vs. pypi dependencies
+> [!NOTE]
+> **conda vs. pypi dependencies**
 >
 > Open up the `pyproject.toml` to see what `pixi` has changed.
 >
@@ -76,7 +80,8 @@
 
 ### Activating the environment
 
-> ⚠️ Gotcha: [UTAS ITS Managed Devices](#utas-its-managed-devices)
+> [!IMPORTANT]
+> [UTAS ITS Managed Devices](#utas-its-managed-devices)
 
 1. Install the environment:
    `pixi install`
@@ -143,7 +148,8 @@ exiftool my_image.tif
 
 ### Project-centric workflow
 
-> ⏩ TL;DR
+> [!NOTE]
+> **TL;DR**
 >
 > For project-centric workflows (i.e. `pixi`):
 >
@@ -178,6 +184,11 @@ Trust me on this one… it's not worth it.
 ![pixienv-onedrive](assets/pixienv-onedrive.png)
 
 ### UTAS ITS managed devices
+
+> [!WARNING]
+>
+> I don't seem to have issues anymore but I'm not sure if it's something I have configured differently. Let me know if you run into issues.
+>
 
 ITS has blocked all scripts on UTAS Windows devices which is known to cause problems for activating `pixi` environments. It also stops `conda` and `mamba` from initialising in PowerShell.
 
