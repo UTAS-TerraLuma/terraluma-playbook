@@ -55,6 +55,9 @@ brew install gh
 sudo apt install gh
 ```
 
+> [!IMPORTANT]
+> GitHub CLI respects your `git` configuration, make sure it is configured before using `gh`.
+
 #### Authorise `gh`
 
 Run the interactive login flow and follow prompts:
